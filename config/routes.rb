@@ -1,6 +1,7 @@
 require 'sidekiq/web'
 
 Rails.application.routes.draw do
+  resources :users
   resources :posts
 scope :monitoring do
 # PGHero Basic Auth from routes on production environment
