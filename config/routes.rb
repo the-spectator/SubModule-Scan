@@ -1,6 +1,7 @@
 require 'sidekiq/web'
 
 Rails.application.routes.draw do
+  resources :articles
   resources :users
   resources :posts
 scope :monitoring do
