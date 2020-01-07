@@ -1,0 +1,3 @@
+[submodule "vendor/core"]
+	path = vendor/core
+	url = git@github.com:the-spectator/Submodule-Core.git
